@@ -1,1 +1,27 @@
 // Specific CSS for your home-page
+.container{
+  margin: 0 auto;
+  background: "Cocktails"
+}
+
+body {
+  font-family: Cinzel;
+  background-color: $midnight-green-eagle-green;
+}
+
+h1 {
+  display: flex;
+  justify: top left;
+  font-size: 225px;
+  color: $dark-orange;
+  text-shadow: 1px 1px 2px black;
+}
+
+.ul {
+  color: $ruby-red;
+}
+
+.btn-primary {
+  color: #edf2f4;
+  background-color: none;
+}

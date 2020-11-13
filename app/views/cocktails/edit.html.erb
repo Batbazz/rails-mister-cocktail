@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1>Edit <%= @cocktail.name %></h1>
+
+        <%= simple_form_for @cocktail do |f| %>
+          <%= f.input :name %>
+          <%= f.association :ingredient %>
+          <%= f.association :dose %>
+          <%= f.submit class: 'btn btn-primary'%>
+        <% end %>
+
+    </div>
+  </div>
+</div>
+
+<%= link_to "Back to list", cocktails_path(@cocktail) %>
